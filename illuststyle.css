@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.illustration {
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #EF476F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5vh 5vw;
+    column-gap: 3vw;
+    row-gap: 5vh
+}
+.illustration-item {
+  width: 15vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.illustration-item-image {
+  width: 15vw;
+  height: 26vh;
+  background-color: #333;
+}
